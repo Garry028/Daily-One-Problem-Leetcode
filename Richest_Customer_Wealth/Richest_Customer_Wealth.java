@@ -14,7 +14,9 @@ public class Richest_Customer_Wealth {
             for (int account = 0; account < accounts[person].length; account++) {
                 sum += accounts[person][account];
             }
-            if (sum > max) {
+            // if current sum is greater than the initial sum then update the sum
+            if (sum > max) 
+            {
                 max = sum;
             }
         }

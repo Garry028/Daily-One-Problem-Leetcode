@@ -9,8 +9,8 @@ class Solution {
 
         for(int i=0;i<size;i++)
         {
-            ans[i]=nums[i];
-            ans[i+size]=nums[i];
+            ans[i]=nums[i];// initial array will be same 
+            ans[i+size]=nums[i]; // then after same array will start filling
             
         }
         return ans;

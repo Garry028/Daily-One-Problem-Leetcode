@@ -20,6 +20,7 @@ public class Richest_Customer_Wealth {
                 max = sum;
             }
         }
+        System.out.print("Richest customer wealth is:");
         return max;
     }
 }

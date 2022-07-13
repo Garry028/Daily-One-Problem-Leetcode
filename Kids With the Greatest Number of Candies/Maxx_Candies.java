@@ -15,7 +15,7 @@
 //         ArrayList <Boolean> ans = new ArrayList<>();// this is for storing the boolean array
 //         for(int i=0;i<candies.length;i++)
 //         {
-//             int value = candies[i]+extraCandies;
+//             int value = candies[i] + extraCandies;
             // if(value>=max)
             // {
             //     ans.add(true);

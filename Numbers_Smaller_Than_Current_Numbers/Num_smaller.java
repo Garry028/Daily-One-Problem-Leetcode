@@ -52,7 +52,7 @@ class Solution {
         {
             temp[i]=temp[i]+temp[i-1];
         }
-        // for storing result
+        // for storing result in the array
         for(int i=0;i<nums.length;i++)
         {
             if(nums[i]==0)

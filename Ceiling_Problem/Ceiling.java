@@ -26,3 +26,6 @@ class Solution {
 
 // when element not found then the while condition breaks.
 // then senario is like ->  end - mid - start   means if we return start then we will get the element greater than target.
+
+
+// for question of floor return end

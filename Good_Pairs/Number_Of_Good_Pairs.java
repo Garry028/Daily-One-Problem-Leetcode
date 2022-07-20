@@ -1,4 +1,4 @@
-
+package Good_Pairs;
 // This is brute force approach TC -> O(n^2) &  SC -> O(1)
 // class Solution {
 //     public int numIdenticalPairs(int[] nums) {

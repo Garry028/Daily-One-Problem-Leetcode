@@ -5,7 +5,9 @@ class Solution {
         int[] ans = { -1, -1 };
 
         ans[0] = search(nums, target, true); // this for search in the left side of the array
-        ans[1] = search(nums, target, false); // this for search in the right side of the array
+        if (ans[0]!=-1) {
+            ans[1] = search(nums, target, false); // this for search in the right side of the array
+        }
 
         return ans;
     }

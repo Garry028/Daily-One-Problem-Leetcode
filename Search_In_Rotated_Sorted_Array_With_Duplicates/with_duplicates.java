@@ -1,4 +1,4 @@
-// package Search_In_Rotated_Sorted_Array_With_Duplicates;
+package Search_In_Rotated_Sorted_Array_With_Duplicates;
 
 // public class with_duplicates {
 //     public static void main(String[] args) {

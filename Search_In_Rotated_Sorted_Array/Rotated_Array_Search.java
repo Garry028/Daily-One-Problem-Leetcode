@@ -21,7 +21,7 @@ public class Rotated_Array_Search
    {
      return pivot;
    }
-    // if target is less than pivot, then search in the first array
+    // if target is greater than pivot, then search in the first array
     if(target>=nums[0])
     {
       return binary_search(nums,target,0,pivot-1);
@@ -41,7 +41,6 @@ public class Rotated_Array_Search
 
     while(start<=end)
     {
-        
 
         int mid = start + (end-start)/2;// this is better way to find the mid
 
@@ -59,9 +58,7 @@ public class Rotated_Array_Search
             return mid;
         }
         
-    }
-
-    
+      }
      return -1;
 }
   

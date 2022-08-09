@@ -28,11 +28,11 @@ class Solution {
                 ans = mid;// potential ans found but it may be possible that other ans is also there on
                           // left side of mid or right dside of mid
 
-                if (firstStartIndex) // for left side if true then on the left side 
+                if (firstStartIndex) // for left side if true then  search on the left side 
                 {
                     end = mid - 1;
                 } else {
-                    start = mid + 1; // for right side if false then on the right side
+                    start = mid + 1; // for right side if false then search  on the right side
                 }
             }
         }

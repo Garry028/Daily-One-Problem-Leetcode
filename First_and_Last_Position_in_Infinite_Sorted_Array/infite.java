@@ -2,9 +2,8 @@ package First_and_Last_Position_in_Infinite_Sorted_Array;
 // Amazon india question
 public class infite {
     public static void main(String[] args) {
-        int[] nums = { 3, 5, 7, 9, 10, 90, 100, 130,
-                140, 160, 170, 180, 190, 200, 210, 220 };
-        int target = 10;
+        int[] nums = { 2,3,5,6,7,8,10,14,15,20,23,30,33,35,37,39,45,47};
+        int target = 39;
         System.out.print("Element found at index: " + findRange(nums, target));
 
     }

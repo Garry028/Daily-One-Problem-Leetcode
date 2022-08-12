@@ -1,4 +1,8 @@
 class Solution {
+
+    public static void main(String[] args) {
+        
+    }
     // Facebook question
     public int[] searchRange(int[] nums, int target) {
         // TC: O(logn)
@@ -6,7 +10,7 @@ class Solution {
         int[] ans = { -1, -1 };
 
         ans[0] = search(nums, target, true); // this for search in the left side of the array
-        if (ans[0]!=-1) {
+        if (ans[0] != -1) {
             ans[1] = search(nums, target, false); // this for search in the right side of the array
         }
 
@@ -28,11 +32,11 @@ class Solution {
                 ans = mid;// potential ans found but it may be possible that other ans is also there on
                           // left side of mid or right dside of mid
 
-                if (firstStartIndex) // for left side if true then  search on the left side 
+                if (firstStartIndex) // for left side if true then search on the left side
                 {
                     end = mid - 1;
                 } else {
-                    start = mid + 1; // for right side if false then search  on the right side
+                    start = mid + 1; // for right side if false then search on the right side
                 }
             }
         }

@@ -2,7 +2,7 @@ package Peak_Index_In_Mountain_Array;
 
 public class peak {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5,6,4,3,2};
+        int[] arr={1,2,3,5,4,3,2};
         int peak=Peak_Index_In_Mountain_Array(arr);
         System.out.println(peak);
     }

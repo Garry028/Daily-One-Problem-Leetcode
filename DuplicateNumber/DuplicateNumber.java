@@ -44,7 +44,8 @@ public class DuplicateNumber {
             }
             
             else{
-                return nums[i];
+                // means we're ignoring the duplicate
+                return nums[i];// ans found
             }
       
         }

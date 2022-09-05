@@ -7,9 +7,8 @@ public class duplicate {
 
     }
 
-    public List<Integer> findDuplicates(int[] nums) 
-    {
-      List<Integer> list = new ArrayList<Integer>();
+    public List<Integer> findDuplicates(int[] nums) {
+        List<Integer> list = new ArrayList<Integer>();
 
         int i = 0;
 
@@ -29,6 +28,6 @@ public class duplicate {
                 list.add(nums[index]);
             }
         }
-        return list;  
+        return list;
     }
 }
